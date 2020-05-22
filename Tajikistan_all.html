@@ -1,0 +1,486 @@
+<!-- LineChart generated in R 3.6.2 by googleVis 0.6.4 package -->
+<!-- Fri May 22 12:58:26 2020 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataLineChartID351818561fdb () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"2020-05-01",
+0
+],
+[
+"2020-05-02",
+80.26315789
+],
+[
+"2020-05-03",
+40.625
+],
+[
+"2020-05-04",
+44.34782609
+],
+[
+"2020-05-05",
+21.50170648
+],
+[
+"2020-05-06",
+22.69129288
+],
+[
+"2020-05-07",
+17.78741866
+],
+[
+"2020-05-08",
+11.68582375
+],
+[
+"2020-05-10",
+0
+],
+[
+"2020-05-09",
+14.70588235
+],
+[
+"2020-05-11",
+7.41301059
+],
+[
+"2020-05-12",
+9.327846365
+],
+[
+"2020-05-13",
+8.988764045
+],
+[
+"2020-05-14",
+11.68687982
+],
+[
+"2020-05-15",
+18.87298748
+],
+[
+"2020-05-16",
+15.4311649
+],
+[
+"2020-05-17",
+13.25459318
+],
+[
+"2020-05-18",
+11.85656449
+],
+[
+"2020-05-19",
+10.69214876
+],
+[
+"2020-05-20",
+9.53271028
+],
+[
+"2020-05-21",
+8.936170213
+] 
+];
+data.addColumn('string','data_actual');
+data.addColumn('number','percentual');
+data.addRows(datajson);
+return(data);
+}
+
+
+// jsData 
+function gvisDataLineChartID35181d7866a1 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"2020-05-03",
+0
+],
+[
+"2020-05-04",
+33.33333333
+],
+[
+"2020-05-05",
+40
+],
+[
+"2020-05-06",
+37.5
+],
+[
+"2020-05-08",
+0
+],
+[
+"2020-05-07",
+33.33333333
+],
+[
+"2020-05-10",
+0
+],
+[
+"2020-05-09",
+40
+],
+[
+"2020-05-12",
+0
+],
+[
+"2020-05-11",
+4.761904762
+],
+[
+"2020-05-13",
+8.695652174
+],
+[
+"2020-05-14",
+20.68965517
+],
+[
+"2020-05-15",
+12.12121212
+],
+[
+"2020-05-16",
+8.333333333
+],
+[
+"2020-05-17",
+7.692307692
+],
+[
+"2020-05-20",
+0
+],
+[
+"2020-05-19",
+0
+],
+[
+"2020-05-18",
+4.87804878
+],
+[
+"2020-05-21",
+6.818181818
+] 
+];
+data.addColumn('string','data_actual');
+data.addColumn('number','percentual');
+data.addRows(datajson);
+return(data);
+}
+
+
+// jsData 
+function gvisDataLineChartID351876bf78fe () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"2020-05-21",
+0
+],
+[
+"2020-05-20",
+-36.38297872
+] 
+];
+data.addColumn('string','data_actual');
+data.addColumn('number','percentual');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartLineChartID351818561fdb() {
+var data = gvisDataLineChartID351818561fdb();
+var options = {};
+options["allowHtml"] = true;
+options["title"] = "COVID-19 - % Confirmed  -  Tajikistan";
+options["titleTextStyle"] = {color:'red',fontName:'Courier',fontSize:16};
+options["curveType"] = "function";
+options["width"] = 460;
+options["height"] = 600;
+
+
+    chartLineChartID351818561fdb = new google.visualization.ChartWrapper({
+    dataTable: data,       
+    chartType: 'LineChart',
+    containerId: 'LineChartID351818561fdb',
+    options: options
+    });
+    chartLineChartID351818561fdb.draw();
+    
+
+}
+
+  function openEditorLineChartID351818561fdb() {
+  var editor = new google.visualization.ChartEditor();
+  google.visualization.events.addListener(editor, 'ok',
+  function() { 
+  chartLineChartID351818561fdb = editor.getChartWrapper();  
+  chartLineChartID351818561fdb.draw(document.getElementById('LineChartID351818561fdb')); 
+  }); 
+  editor.openDialog(chartLineChartID351818561fdb);
+  }
+    
+
+
+// jsDrawChart
+function drawChartLineChartID35181d7866a1() {
+var data = gvisDataLineChartID35181d7866a1();
+var options = {};
+options["allowHtml"] = true;
+options["title"] = "COVID-19 - % Deaths  -  Tajikistan";
+options["titleTextStyle"] = {color:'red',fontName:'Courier',fontSize:16};
+options["curveType"] = "function";
+options["width"] = 460;
+options["height"] = 600;
+
+
+    chartLineChartID35181d7866a1 = new google.visualization.ChartWrapper({
+    dataTable: data,       
+    chartType: 'LineChart',
+    containerId: 'LineChartID35181d7866a1',
+    options: options
+    });
+    chartLineChartID35181d7866a1.draw();
+    
+
+}
+
+  function openEditorLineChartID35181d7866a1() {
+  var editor = new google.visualization.ChartEditor();
+  google.visualization.events.addListener(editor, 'ok',
+  function() { 
+  chartLineChartID35181d7866a1 = editor.getChartWrapper();  
+  chartLineChartID35181d7866a1.draw(document.getElementById('LineChartID35181d7866a1')); 
+  }); 
+  editor.openDialog(chartLineChartID35181d7866a1);
+  }
+    
+
+
+// jsDrawChart
+function drawChartLineChartID351876bf78fe() {
+var data = gvisDataLineChartID351876bf78fe();
+var options = {};
+options["allowHtml"] = true;
+options["title"] = "COVID-19 - % Recovered  -  Tajikistan";
+options["titleTextStyle"] = {color:'red',fontName:'Courier',fontSize:16};
+options["curveType"] = "function";
+options["width"] = 460;
+options["height"] = 600;
+
+
+    chartLineChartID351876bf78fe = new google.visualization.ChartWrapper({
+    dataTable: data,       
+    chartType: 'LineChart',
+    containerId: 'LineChartID351876bf78fe',
+    options: options
+    });
+    chartLineChartID351876bf78fe.draw();
+    
+
+}
+
+  function openEditorLineChartID351876bf78fe() {
+  var editor = new google.visualization.ChartEditor();
+  google.visualization.events.addListener(editor, 'ok',
+  function() { 
+  chartLineChartID351876bf78fe = editor.getChartWrapper();  
+  chartLineChartID351876bf78fe.draw(document.getElementById('LineChartID351876bf78fe')); 
+  }); 
+  editor.openDialog(chartLineChartID351876bf78fe);
+  }
+    
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "charteditor";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartLineChartID351818561fdb);
+})();
+function displayChartLineChartID351818561fdb() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+
+
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "charteditor";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartLineChartID35181d7866a1);
+})();
+function displayChartLineChartID35181d7866a1() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+
+
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "charteditor";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartLineChartID351876bf78fe);
+})();
+function displayChartLineChartID351876bf78fe() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID351818561fdb"></script>
+
+
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID35181d7866a1"></script>
+
+
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID351876bf78fe"></script>
+ 
+<table cellspacing="20" bgcolor="#AABBCC">
+<tr>
+<td>
+
+<table cellspacing="20" bgcolor="#AABBCC">
+<tr>
+<td>
+
+<!-- divChart -->
+<input type='button' onclick='openEditorLineChartID351818561fdb()' value='Graph'/>  
+<div id="LineChartID351818561fdb" 
+  style="width: 460; height: 600;">
+</div>
+
+</td>
+<td>
+
+<!-- divChart -->
+<input type='button' onclick='openEditorLineChartID35181d7866a1()' value='Graph'/>  
+<div id="LineChartID35181d7866a1" 
+  style="width: 460; height: 600;">
+</div>
+
+</td>
+</tr>
+</table>
+
+</td>
+<td>
+
+<!-- divChart -->
+<input type='button' onclick='openEditorLineChartID351876bf78fe()' value='Graph'/>  
+<div id="LineChartID351876bf78fe" 
+  style="width: 460; height: 600;">
+</div>
+
+</td>
+</tr>
+</table>
